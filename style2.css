@@ -1,0 +1,24 @@
+.text{
+    font-size: 20px;
+    transition: font-size 2s ease-in-out 0.2s;
+}
+.text:hover{
+    font-size: 50px;
+}
+.text1{
+    font-size: 20px;
+    transition: font-size 2s ease-in-out 0.2s , color 2s ease-in-out 0.2s;
+}
+.text1:hover{
+    font-size:50px;
+    color:rgb(6, 236, 33);
+}
+.img {
+    height:150px;
+    width:200px;
+    transition: height 2s ease-in-out 0.2s, width 2s ease-in-out 0.2s;
+}
+.img:hover{
+    height: 300px;
+    width:400px;
+}
